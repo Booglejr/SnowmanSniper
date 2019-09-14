@@ -1,0 +1,7 @@
+# Contribution Guidelines
+We would be happy to have you contribute to our project. Here are the ground rules:
+
+1) Only tabs.
+2) Separate functions and components belong in separate files and folders with clear and concise names.
+3) Code should be tested before it is merged.
+4) Lastly, you should have fun. After all this is your personal time.
