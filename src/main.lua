@@ -54,7 +54,7 @@ function love.load()
 	x[2] = (.5 * offsetx[2]) + ((window.Width - game.Width) * .5)
 	y[2] = .5 * offsety[2]
 	-------------------------------------------------------
-	img[3] = love.graphics.newImage("assets/back3.jpg")
+	img[3] = love.graphics.newImage("assets/back3.png")
 	offsetx[3] = game.Width - img[3]:getWidth()
 	offsety[3] = game.Height - img[3]:getHeight()
 	x[3] = (.5 * offsetx[3]) + ((window.Width - game.Width) * .5)

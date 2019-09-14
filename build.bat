@@ -1,6 +1,7 @@
 mkdir .\build
 cd .\src
-powershell Compress-Archive -Path . -DestinationPath ..\build\SnowmanSniper.love
+powershell Compress-Archive -Path .\* -DestinationPath ..\build\SnowmanSniper.zip
+move ..\build\SnowmanSniper.zip ..\build\SnowmanSniper.love
 cd ..
 copy .\build_extras\win32\love.exe .\build\love.exe 
 cd .\build
@@ -10,3 +11,5 @@ cd ..
 move .\build\SnowmanSniper.exe .\build_extras\win32\SnowmanSniper.exe
 cd .\build_extras\win32
 powershell Compress-Archive -Path . -DestinationPath ..\..\build\SnowmanSniper-win32.zip
+del SnowmanSniper.exe
+
